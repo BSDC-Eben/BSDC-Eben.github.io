@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background: #333;
+    font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+    color: rgb(172, 172, 172);
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.616);
+    position: fixed;
+    width: 100%;
+}
+
+a {
+    color: white;
+}
+
+p {
+    margin: 20;
+    padding: 20;
+}
+
+h1 {
+    padding-top: 100px;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    color: rgb(212, 212, 212);
+    margin: 0;
+    padding: 0;
+}
+div {
+    background: none;
+    margin: auto;
+}
+header {
+    background: #111;
+}
+section {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+footer {
+    background: black;
+    position: fixed;
+    width: 100%;
+    display: block;
+    bottom: 0;
+    left: 0;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+li {
+    display:  inline-block;
+    margin:  20px;
+}
+
+.topmar {
+    margin-top: 400px;
+}
+
+.navpf {
+    height: 40px;
+}
+
+.pf {
+    height: 20vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topnav-left {
+    float: left;
+    color: white;
+}
+
+.topnav-center {
+    float: center;
+    color: white;
+}
+
+.topnav-right {
+    float: right;
+    color: white;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.tl {
+    text-align: left;
+}
+
+.tc {
+    text-align: center;
+}
+
+.tr {
+    text-align: right;
+}
+
+.abtd {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.abtb {
+    width: 600px;
+    border: #111;
+    border-width: 50px;
+    color: rgb(255, 255, 255);
+    background-color: inherit;
+    padding: 33px 33px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 16px;
+    margin: inherit;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.abtb:hover {
+    background-color: #222;
+    color: #ffffff;
+}
+
+.abt {
+    display: none;
+}
+
+.abti {
+    font-size: x-large;
+}
+
+.button {
+    position: flex;
+    border: #111;
+    border-width: 50px;
+    color: rgb(255, 255, 255);
+    background-color: inherit;
+    opacity: inherit;
+    padding: 33px 33px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: -20px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #222;
+    color: #ffffff;
+    border: 2px solid #222;
+}
+  
+.button:hover {
+    background-color: #222;
+    color: #ffffff;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.616);
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
